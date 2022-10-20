@@ -5,63 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata</title>
-    <style>
-        .nav ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333;
-        }
-        
-        .nav li {
-          float: left;
-        }
-        
-        .nav li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-        
-        .nav li a:hover {
-          background-color: #111;
-        }
-    </style>
-</head>
-<body>
-    <div class="nav">
-        <ul>
-            <li><a href="index.html">Biodata</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-        </ul>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="index.html">Biodata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="portofolio.html">Portofolio</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    <body>
-        <h1>Amalia Putri Damayanti</h1>
-        <img src="foto amal.jpg" width="150"><br>
-        <h2>Tentang Saya</h2>
-        <p>Saya seorang mahasiswa ilmu politik yang aktif berpartisipasi dalam beberapa kegiatan mahasiswa. Saya orang yang komunikatif, suka bersosialisasi dan berkomunikasi dengan orang baru, sangat terorganisir, pekerja keras, bertanggung jawab atas setiap kegiatan yang saya jalani, dan mampu bekerja dengan baik dalam sebuah tim. Saya juga bisa bekerja di bawah tekanan dan menjaga emosi saya tetap stabil. Saya tertarik di beberapa bidang, yakni Communication, Human Resources, dan Marketing.</p>
-        <h2>Keahlian Saya</h2>
-        <ol>
-            <li>Menggunakan Microsoft Office dan Canva</li>
-            <li>Desain</li>
-            <li>Kreatif dan Inovatif</li>
-            <li>Teliti dan Terstruktur</li>
-            <li>Adaptif dan Komunikatif</li>
-            <li>Bekerjasama Dengan Tim</li>
-            <li>Menyelesaikan Masalah</li>
-        </ol>
-        <h2>Pendidikan Saya</h2>
-        <ul>
-            <li>2007-2013: SD Negeri Tugu 03 Depok</li>
-            <li>2013-2016: SMP Negeri 15 Depok</li>
-            <li>2016-2019: SMA Negeri 13 Depok</li>
-            <li>2020-Sekarang: Universitas Pembangunan Nasional Veteran Jakarta</li>
-        </ul>
-        <h2>Kontak Saya</h2>
-        <p><a href="https://www.linkedin.com/in/amalia-putri-damayanti-279422237/">You Can Contact Me in Here!</a></p>
-        <p><a href="file:///Users/macbookpro/Desktop/LATIHAN/portofolio.html">Portofolio</a></p>
-     </body>
+    </nav>
+
+  <!-- hero -->
+  <div id="hero" class="container d-flex flex-column align-items-center justify-content-center mb-5">
+    <img src="./assets/image/amal.jpg" class="image-hero rounded-circle" alt="">
+    <h1 class="title fw-bold">Amalia Putri Damayanti</h1>
+    <p class="subtitle">Bisnis</p>
+    <i class="bi bi-arrow-down"></i>
+  </div>
+
+  <!-- about me -->
+  <div class="container mb-5">
+      <h2 class="text-center mb-3">About me</h2>
+        <div class="row">
+          <div class="col-6">
+            <img src="./assets/image/logo upnvj.jpeg" class="shadow rounded w-100" alt="">
+          </div>
+          <div class="col-6">
+            <p class="text-about">Saya adalah seorang mahasiswa program studi Ilmu Politik semester lima Universitas Pembangunan Nasional Veteran Jakarta yang aktif berpartisipasi dalam beberapa kegiatan mahasiswa. Saya orang yang komunikatif, suka bersosialisasi dan berkomunikasi dengan orang baru, sangat terorganisir, pekerja keras, bertanggung jawab atas setiap kegiatan yang saya jalani, dan mampu bekerja dengan baik dalam sebuah tim. Saya juga bisa bekerja di bawah tekanan dan menjaga emosi saya tetap stabil. Saya tertarik di beberapa bidang, yakni Communication, Human Resources, dan Marketing.</p>
+          </div>    
+      </div>
+  </div>
+
+  <!-- Skill -->
+  <div class="container mb-5">
+    <h2 class="text-center mb-3">My Skill</h2>
+    <div class="row">
+        <div class="col-3">
+            <div class="card">
+                <img src="./assets/image/canva logo.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Editing</h5>
+                    <p class="card-text">Canva.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./assets/image/microsoft.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Microsoft Office</h5>
+                    <p class="card-text">Office Word, Microsoft Office Power Point.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./assets/image/adaptif.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Adaptif</h5>
+                    <p class="card-text">Dapat beradaptasi dengan hal baru.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./assets/image/teamwork.jpeg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Team Work</h5>
+                    <p class="card-text">Mampu bekerja sama dengan tim.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+              </div>
+          </div>         
+      </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/amalia-putri-damayanti-279422237/"><i class="bi bi-linkedin"></i></svg></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>   
+
 </html>
